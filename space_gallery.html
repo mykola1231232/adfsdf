@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Космічна галерея</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: white;
+            padding: 20px;
+        }
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+        }
+        .block {
+            padding: 10px;
+            border-radius: 10px;
+            width: 30%;
+            text-align: center;
+        }
+        .star { background-color: #1e1e3f; }
+        .planet { background-color: #0d3b66; }
+        .galaxy { background-color: #3c096c; }
+        img {
+            width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="text-align:center;">Космічна галерея</h1>
+
+    <div class="gallery">
+        <div class="block star">
+            <h2>Зірка</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Sun_and_flare.jpg" alt="Зірка">
+            <p>Це наша рідна зірка — Сонце.</p>
+        </div>
+        <div class="block planet">
+            <h2>Планета</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Earth_seen_from_Apollo_17.jpg" alt="Земля">
+            <p>Земля — єдина відома планета з життям.</p>
+        </div>
+        <div class="block galaxy">
+            <h2>Галактика</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/ESO_-_Milky_Way.jpg" alt="Галактика">
+            <p>Ми живемо у галактиці Чумацький Шлях.</p>
+        </div>
+    </div>
+
+</body>
+</html>
